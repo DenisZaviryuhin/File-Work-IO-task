@@ -29,7 +29,7 @@ public class FileReadService {
             return exception.getMessage();
 
         }
-        return "";
+        return "---------------" + "\nReading successfully completed!";
     }
 }
 
